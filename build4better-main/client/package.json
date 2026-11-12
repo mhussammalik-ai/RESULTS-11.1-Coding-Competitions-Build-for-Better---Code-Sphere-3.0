@@ -1,0 +1,33 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "voices": "node scripts/make-voices.mjs"
+  },
+  "dependencies": {
+    "@fontsource/inter-tight": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/noto-nastaliq-urdu": "^5.3.0",
+    "@fontsource/roboto": "^5.3.0",
+    "framer-motion": "^14.9.0",
+    "lucide-react": "^1.66.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "msedge-tts": "^2.1.1",
+    "oxlint": "^1.89.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.5"
+  }
+}
